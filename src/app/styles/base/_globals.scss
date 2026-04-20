@@ -1,0 +1,11 @@
+@use '../abstracts/variables' as *;
+
+:root {
+  font-family: $font-family-base;
+  background: $color-background-base;
+}
+
+.container {
+  width: min(100% - 32px, 1200px);
+  margin-inline: auto;
+}
