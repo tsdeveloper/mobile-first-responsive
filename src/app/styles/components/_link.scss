@@ -1,0 +1,10 @@
+@use '../abstracts/variables' as *;
+@use '../abstracts/tokens.colors' as *;
+
+
+.site-header__nav-link--active {
+  color: $neutral-100;
+}
+.site-header__nav-link--disabled {
+  color: $neutral-500;
+}

@@ -1,6 +1,15 @@
+//- **abstracts** → variáveis, mixins, funções
+//- **base** → reset, tipografia, estilos globais
+//- **layout** → header, footer, sidebar, nav, section estrutural
+//- **components** ou **ui** → button, input, modal, select, link, card
+//- **widgets** → estilos de blocos grandes como hero-section
+//- **pages** → estilos muito específicos de uma página, quando precisar
+
 @use './abstracts/variables';
 @use './abstracts/fonts';
 @use './base/reset';
 @use './base/globals';
+@use './components/button';
+@use './components/link';
 @use './layout/header';
 @use './widgets/hero-section';

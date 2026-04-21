@@ -3,9 +3,10 @@
 :root {
   font-family: $font-family-base;
   background: $color-background-base;
+  color: $color-text;
 }
 
 .container {
-  width: min(100% - 32px, 1200px);
+  width: min(100% - 32px, $container-width);
   margin-inline: auto;
 }

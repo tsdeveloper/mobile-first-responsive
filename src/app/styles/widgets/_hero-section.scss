@@ -1,13 +1,24 @@
+@use  '../abstracts/variables' as *;
+
 .hero-section {
   display: flex;
   background: rgb(21 21 21 / 0);
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  margin-top: 2rem;
 
   &__banner {
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    width: min($container-width, calc(100% - 200px));
     background: url("../../../assets/banner.png");
-    background-size: contain;
-    min-height: 620px;
+    background-size: cover;
+    min-height: 480px;
+    overflow: hidden;
+    //padding: 5rem 4rem;
     //width: 100px;
   }
 }
