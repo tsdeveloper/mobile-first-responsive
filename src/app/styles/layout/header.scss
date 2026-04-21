@@ -6,52 +6,33 @@
   align-items: center;
   align-content: center;
   padding-block: 2rem 0;
-
+  margin: 0 auto;
 
   &__container {
-    width: min($container-width, calc(100% - 500px));
+    width: min($container-width, calc(100% - 120px));
     margin: 0 auto;
     display: grid;
     grid-template-columns: 140px 1fr;
     align-items: center;
-    column-gap: clamp(3rem, 8vw, 8rem);
+    column-gap: clamp(4rem, 10vw, 20rem);
   }
   &__brand {
-    margin-right: 0;
+    margin: 0;
     display: block;
     justify-self: start;
   }
-  &__nav { 
-    margin-left: clamp(6rem, 10vw, 20rem);
+  &__nav {
+    margin: 0;
     justify-self: start;
   }
   &__nav-list {
+    margin: 0;
     display: flex;
     align-items: center;
     gap: clamp(1rem, 2vw, 2rem);
-    margin: 0;
-    padding: 0;
   }
   &__nav-item {
-    flex: 0 0 auto ;
+    margin: 0;
     font-size: 0.8rem;
   }
-
-  //
-  //& .site-header__brand {
-  //  //width: 100%;
-  //  justify-content: flex-start;
-  //  align-items: center;
-  //  //align-content: center;
-  //}
-  //
-  //& .site-header__nav-list, .site-header__nav-item  {
-  //  display: flex;
-  //  //width: 100%;
-  //  //justify-content: ;
-  //  align-items: flex-end;
-  //  //align-content: center;
-  //  margin: auto 0.8rem;
-  //  font-size: 0.9rem;
-  //}
 }
