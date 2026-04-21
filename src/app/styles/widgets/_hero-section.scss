@@ -1,0 +1,13 @@
+.hero-section {
+  display: flex;
+  background: rgb(21 21 21 / 0);
+
+  &__banner {
+    display: flex;
+    flex-direction: column;
+    background: url("../../../assets/banner.png");
+    background-size: contain;
+    min-height: 620px;
+    //width: 100px;
+  }
+}

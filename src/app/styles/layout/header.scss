@@ -12,13 +12,13 @@
     align-content: center;
   }
 
-  & .site-header__nav, .site-header__nav-item {
+  & .site-header__nav-list, .site-header__nav-item,  {
     display: flex;
     width: 100%;
     justify-content: space-between;
     align-items: center;
     align-content: center;
-    margin: auto 4rem;
+    margin: auto 1rem;
 
   }
 }
