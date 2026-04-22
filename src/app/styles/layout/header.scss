@@ -1,38 +1,39 @@
-@use  '../abstracts/variables' as *;
+@use '../abstracts/variables' as *;
 
 .site-header {
   width: 100%;
   display: flex;
   align-items: center;
-  align-content: center;
   padding-block: 2rem 0;
-  margin: 0 auto;
 
   &__container {
-    width: min($container-width, calc(100% - 120px));
+    width: min($container-width, calc(100% - 140px));
     margin: 0 auto;
-    display: grid;
-    grid-template-columns: 140px 1fr;
-    align-items: center;
-    column-gap: clamp(4rem, 10vw, 20rem);
-  }
-  &__brand {
-    margin: 0;
-    display: block;
-    justify-self: start;
-  }
-  &__nav {
-    margin: 0;
-    justify-self: start;
-  }
-  &__nav-list {
-    margin: 0;
     display: flex;
-    align-items: center;
-    gap: clamp(1rem, 2vw, 2rem);
+    justify-content: space-between;
+
   }
+
+  &__brand {
+    //margin: 0 auto;
+   display: flex;
+    justify-self: start;
+  }
+
+  &__nav {
+    //margin: 0;
+    justify-self: start;
+  }
+
+  &__nav-list {
+    display: flex;
+    justify-self: end;
+    align-items: center;
+    gap: clamp(2rem, 2vw, 8rem);
+  }
+
   &__nav-item {
-    margin: 0;
+    flex: 0 0 auto;
     font-size: 0.8rem;
   }
 }

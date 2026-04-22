@@ -4,6 +4,8 @@
   font-family: $font-family-base;
   background: $color-background-base;
   color: $color-text;
+  width: min(100% - 32px, $container-width);
+  margin-inline: auto;
 }
 
 .container {
